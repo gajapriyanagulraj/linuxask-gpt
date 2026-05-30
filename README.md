@@ -2,7 +2,7 @@
 
 > **Natural Language Interface for Linux** — Linux commands without memorization.
 
-<img src="demo.gif" width="100%" alt="demo"/>
+<img src="demo.gif" width="800" alt="demo"/>
 
 ```bash
 linuxgpt ask "find files larger than 1GB"
