@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "linuxgpt"
+version = "0.1.0"
+description = "Natural Language Interface for Linux — commands without memorization"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "typer[all]>=0.12",
+    "rich>=13",
+    "openai>=1.30",
+    "httpx>=0.27",
+]
+
+[project.scripts]
+linuxgpt = "linuxgpt.cli:app"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["linuxgpt*"]
