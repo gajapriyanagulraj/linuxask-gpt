@@ -2,6 +2,8 @@
 
 > **Natural Language Interface for Linux** — Linux commands without memorization.
 
+![demo](demo.gif)
+
 ```bash
 linuxgpt ask "find files larger than 1GB"
 # find / -type f -size +1G
